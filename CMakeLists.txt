@@ -1,10 +1,10 @@
 # Based on: https://gitlab.com/colorglass/commonlibsse-sample-plugin/-/blob/main/CMakeLists.txt
 
-cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 3.29)
 
 project(
     UnskippableDialogueNG
-    VERSION 1.0.0
+    VERSION 2.0.0
     DESCRIPTION "SKSE plugin for Skyrim Special Edition that prevents the player from skipping any dialogue."
     LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 23)
